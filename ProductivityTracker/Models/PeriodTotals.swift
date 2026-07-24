@@ -8,6 +8,59 @@ enum ReportPeriod: String, CaseIterable, Identifiable, Sendable {
     var id: String { rawValue }
 }
 
+enum SummaryMetric: String, CaseIterable, Identifiable, Sendable {
+    case percentageOfTime = "Percentage of time"
+    case totalTime = "Total time"
+    case averagePerDay = "Average time per day"
+    case averagePerWeek = "Average time per week"
+
+    var id: String { rawValue }
+
+    static func available(for period: ReportPeriod) -> [SummaryMetric] {
+        switch period {
+        case .day:
+            return [.percentageOfTime, .totalTime]
+        case .week:
+            return [.averagePerDay, .percentageOfTime, .totalTime]
+        case .month:
+            return [.averagePerDay, .averagePerWeek, .percentageOfTime, .totalTime]
+        }
+    }
+
+    static func defaultMetric(for period: ReportPeriod) -> SummaryMetric {
+        available(for: period).first ?? .totalTime
+    }
+}
+
+enum GraphMode: String, CaseIterable, Identifiable, Sendable {
+    case calendarMetric = "Calendar metric"
+    case pieDistribution = "Pie chart"
+    case barComparison = "Bar comparison"
+
+    var id: String { rawValue }
+}
+
+struct GraphSlice: Identifiable, Sendable {
+    let id: String
+    let title: String
+    let duration: TimeInterval
+    let red: Double
+    let green: Double
+    let blue: Double
+    let alpha: Double
+
+    var formattedDuration: String {
+        DurationFormatter.format(duration)
+    }
+}
+
+struct GraphSeriesPoint: Identifiable, Sendable {
+    let id: String
+    let label: String
+    let value: Double
+    let unitLabel: String
+}
+
 struct CategoryTotal: Identifiable, Hashable, Sendable {
     let id: String
     let category: CalendarCategory

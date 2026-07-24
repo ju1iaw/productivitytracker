@@ -2,6 +2,8 @@
 
 A native macOS app that reads your Apple Calendar (including iCloud calendars) via EventKit and totals time spent in each calendar — treated as a category — for day, week, and month views.
 
+There is also a **web version** in [`web/`](web/) (React + Vite) with Google Calendar sign-in and ICS import (for Apple Calendar exports). See [web/README.md](web/README.md).
+
 ## Requirements
 
 - macOS 14.0 or later

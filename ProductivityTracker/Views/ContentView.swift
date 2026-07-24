@@ -23,6 +23,9 @@ struct ContentView: View {
         }
         .preferredColorScheme(.light)
         .onAppear { viewModel.onAppear() }
+        .sheet(isPresented: $viewModel.isGraphPresented) {
+            GraphView(viewModel: viewModel)
+        }
     }
 
     private var mainContent: some View {
@@ -55,20 +58,72 @@ struct ContentView: View {
     }
 
     private var summaryHeader: some View {
-        VStack(alignment: .leading, spacing: 6) {
+        VStack(alignment: .leading, spacing: 10) {
             Text(viewModel.rangeLabel)
                 .font(.title2.weight(.semibold))
                 .foregroundStyle(AppTheme.ink)
 
-            Text(viewModel.totals?.formattedTotal ?? "0m")
+            Text(viewModel.summaryValueText)
                 .font(.system(size: 42, weight: .bold, design: .rounded))
                 .foregroundStyle(AppTheme.accent)
+                .contentTransition(.numericText())
 
-            Text("Total time across selected calendars")
+            Text(viewModel.summaryCaption)
                 .font(.subheadline)
                 .foregroundStyle(AppTheme.muted)
+
+            HStack(spacing: 16) {
+                labeledPicker(title: "Calendar") {
+                    Picker("Calendar", selection: Binding(
+                        get: { viewModel.focusCalendarID ?? "" },
+                        set: { viewModel.setFocusCalendar($0.isEmpty ? nil : $0) }
+                    )) {
+                        if viewModel.focusCalendars.isEmpty {
+                            Text("No calendars").tag("")
+                        } else {
+                            ForEach(viewModel.focusCalendars) { calendar in
+                                Text(calendar.title).tag(calendar.id)
+                            }
+                        }
+                    }
+                    .labelsHidden()
+                    .pickerStyle(.menu)
+                    .frame(maxWidth: 220, alignment: .leading)
+                }
+
+                labeledPicker(title: "Show") {
+                    Picker("Metric", selection: $viewModel.summaryMetric) {
+                        ForEach(viewModel.availableSummaryMetrics) { metric in
+                            Text(metric.rawValue).tag(metric)
+                        }
+                    }
+                    .labelsHidden()
+                    .pickerStyle(.menu)
+                    .frame(maxWidth: 260, alignment: .leading)
+                }
+
+                Spacer(minLength: 0)
+
+                Button {
+                    viewModel.openGraph()
+                } label: {
+                    Label("Graph", systemImage: "chart.pie.fill")
+                }
+                .buttonStyle(.borderedProminent)
+                .tint(AppTheme.accent)
+            }
+            .foregroundStyle(AppTheme.ink)
         }
-        .accessibilityElement(children: .combine)
+        .accessibilityElement(children: .contain)
+    }
+
+    private func labeledPicker<Content: View>(title: String, @ViewBuilder content: () -> Content) -> some View {
+        VStack(alignment: .leading, spacing: 4) {
+            Text(title)
+                .font(.caption.weight(.semibold))
+                .foregroundStyle(AppTheme.muted)
+            content()
+        }
     }
 
     private var emptyState: some View {

@@ -1,0 +1,427 @@
+.connect-screen {
+  min-height: calc(100vh - 48px);
+  display: grid;
+  place-items: center;
+}
+
+.connect-card {
+  width: min(480px, 100%);
+  text-align: center;
+  padding: 32px 28px;
+}
+
+.connect-card h1 {
+  margin: 0 0 8px;
+  font-size: 1.5rem;
+}
+
+.connect-card p {
+  margin: 0 0 12px;
+  line-height: 1.45;
+}
+
+.connect-icon {
+  width: 56px;
+  height: 56px;
+  margin: 0 auto 16px;
+  border-radius: 14px;
+  background: rgba(31, 71, 107, 0.1);
+  color: var(--accent);
+  display: grid;
+  place-items: center;
+  font-size: 1.6rem;
+}
+
+.connect-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: stretch;
+  margin-top: 20px;
+}
+
+.connect-actions .btn {
+  justify-content: center;
+}
+
+.hint {
+  font-size: 0.85rem;
+  margin: 0;
+}
+
+.hint code {
+  font-size: 0.8rem;
+}
+
+.divider-row {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  gap: 10px;
+  align-items: center;
+  color: var(--muted);
+  font-size: 0.85rem;
+}
+
+.divider-row span {
+  height: 1px;
+  background: var(--divider);
+}
+
+.apple-help {
+  margin-top: 20px;
+  text-align: left;
+}
+
+.apple-help summary {
+  cursor: pointer;
+  color: var(--accent);
+  font-weight: 600;
+}
+
+.apple-help p {
+  margin-top: 8px;
+  font-size: 0.9rem;
+}
+
+.main-layout {
+  display: grid;
+  grid-template-columns: 1fr 260px;
+  gap: 20px;
+  align-items: start;
+  min-height: calc(100vh - 48px);
+}
+
+.main-column {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  min-width: 0;
+}
+
+.period-picker {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 12px;
+  padding: 12px;
+}
+
+.segmented {
+  display: inline-flex;
+  background: #eef2f7;
+  border-radius: 8px;
+  padding: 2px;
+}
+
+.segmented button {
+  border: none;
+  background: transparent;
+  padding: 6px 14px;
+  border-radius: 6px;
+  color: var(--muted);
+}
+
+.segmented button.active {
+  background: white;
+  color: var(--ink);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.08);
+  font-weight: 600;
+}
+
+.nav-group {
+  display: inline-flex;
+  gap: 4px;
+}
+
+.period-spacer {
+  flex: 1;
+}
+
+.source-chip {
+  font-size: 0.8rem;
+}
+
+.summary-header h1 {
+  margin: 0;
+  font-size: 1.35rem;
+  font-weight: 600;
+}
+
+.summary-value {
+  margin: 8px 0 4px;
+  font-size: 2.6rem;
+  font-weight: 700;
+  color: var(--accent);
+  letter-spacing: -0.02em;
+}
+
+.summary-controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  align-items: end;
+  margin-top: 14px;
+}
+
+.summary-controls label,
+.graph-controls label {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.field-label {
+  font-size: 0.72rem;
+  font-weight: 600;
+  color: var(--muted);
+  text-transform: none;
+}
+
+select {
+  min-width: 180px;
+  max-width: 260px;
+  padding: 6px 8px;
+  border-radius: 8px;
+  border: 1px solid var(--card-border);
+  background: white;
+  color: var(--ink);
+}
+
+.graph-btn {
+  margin-left: auto;
+}
+
+.scroll-stack {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.card h2,
+.card h3 {
+  margin: 0 0 10px;
+  font-size: 1.05rem;
+}
+
+.empty-state {
+  max-width: 520px;
+}
+
+.empty-state h2 {
+  margin-bottom: 6px;
+}
+
+.calendar-filter {
+  position: sticky;
+  top: 24px;
+  max-height: calc(100vh - 48px);
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.calendar-filter h2 {
+  margin: 0;
+}
+
+.caption {
+  font-size: 0.8rem;
+  line-height: 1.35;
+}
+
+.calendar-filter .btn,
+.import-more {
+  align-self: flex-start;
+}
+
+.import-more {
+  cursor: pointer;
+}
+
+.calendar-lists {
+  overflow: auto;
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.calendar-lists h3 {
+  margin: 0 0 4px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--muted);
+}
+
+.calendar-lists ul,
+.totals-card ul,
+.pie-legend {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.calendar-lists li label {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  padding: 4px 0;
+  cursor: pointer;
+}
+
+.calendar-lists .color-dot {
+  margin-top: 5px;
+}
+
+.cal-text {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+}
+
+.cal-title {
+  font-weight: 500;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.cal-source {
+  font-size: 0.72rem;
+}
+
+.totals-card li {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 10px 0;
+}
+
+.totals-card li.has-divider {
+  border-bottom: 1px solid var(--divider);
+}
+
+.total-meta {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  flex: 1;
+}
+
+.total-values {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.duration {
+  font-variant-numeric: tabular-nums;
+  font-weight: 600;
+}
+
+.modal-backdrop {
+  position: fixed;
+  inset: 0;
+  background: rgba(16, 24, 40, 0.35);
+  display: grid;
+  place-items: center;
+  padding: 24px;
+  z-index: 50;
+  animation: fade-in 0.18s ease;
+}
+
+.modal-panel {
+  width: min(920px, 100%);
+  max-height: min(90vh, 720px);
+  overflow: auto;
+  background: var(--page-top);
+  border-radius: 16px;
+  border: 1px solid var(--card-border);
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.18);
+  padding: 24px;
+  animation: rise-in 0.22s ease;
+}
+
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+
+.modal-header h2 {
+  margin: 0 0 4px;
+}
+
+.graph-controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+
+.graph-body {
+  min-height: 360px;
+}
+
+.empty-graph {
+  display: grid;
+  place-items: center;
+  min-height: 280px;
+  margin: 0;
+}
+
+.pie-layout {
+  display: grid;
+  grid-template-columns: 1fr 260px;
+  gap: 20px;
+  align-items: center;
+}
+
+.pie-legend li {
+  display: grid;
+  grid-template-columns: 10px 1fr auto;
+  gap: 8px;
+  align-items: center;
+  padding: 4px 0;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes rise-in {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (max-width: 900px) {
+  .main-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .calendar-filter {
+    position: static;
+    max-height: none;
+  }
+
+  .pie-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .graph-btn {
+    margin-left: 0;
+  }
+}

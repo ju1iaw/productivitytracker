@@ -21,6 +21,7 @@
 		A1000000000000000000000C /* CalendarFilterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000000000000000000000C /* CalendarFilterView.swift */; };
 		A1000000000000000000000D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2000000000000000000000D /* Assets.xcassets */; };
 		A1000000000000000000000E /* AppTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000010 /* AppTheme.swift */; };
+		A1000000000000000000000F /* GraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000011 /* GraphView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		A2000000000000000000000B /* CategoryBarChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryBarChart.swift; sourceTree = "<group>"; };
 		A2000000000000000000000C /* CalendarFilterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarFilterView.swift; sourceTree = "<group>"; };
 		A20000000000000000000010 /* AppTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTheme.swift; sourceTree = "<group>"; };
+		A20000000000000000000011 /* GraphView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphView.swift; sourceTree = "<group>"; };
 		A2000000000000000000000D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A2000000000000000000000E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A2000000000000000000000F /* ProductivityTracker.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ProductivityTracker.entitlements; sourceTree = "<group>"; };
@@ -105,6 +107,7 @@
 				A2000000000000000000000A /* CategoryTotalsView.swift */,
 				A2000000000000000000000B /* CategoryBarChart.swift */,
 				A2000000000000000000000C /* CalendarFilterView.swift */,
+				A20000000000000000000011 /* GraphView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -199,6 +202,7 @@
 				A1000000000000000000000B /* CategoryBarChart.swift in Sources */,
 				A1000000000000000000000C /* CalendarFilterView.swift in Sources */,
 				A1000000000000000000000E /* AppTheme.swift in Sources */,
+				A1000000000000000000000F /* GraphView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
