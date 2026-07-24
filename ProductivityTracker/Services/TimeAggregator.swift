@@ -50,7 +50,7 @@ enum TimeAggregator {
         let categoryTotals: [CategoryTotal] = secondsByCalendar
             .compactMap { calendarID, duration in
                 guard let category = categoryByID[calendarID] else { return nil }
-                let percent = total > 0 ? duration / total : 0
+                let percent = duration / (24 * 60 * 60)
                 return CategoryTotal(
                     id: calendarID,
                     category: category,
