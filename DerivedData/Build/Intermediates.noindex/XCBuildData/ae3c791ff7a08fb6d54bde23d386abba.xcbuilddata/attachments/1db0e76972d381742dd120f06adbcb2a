@@ -1,0 +1,13 @@
+/Users/gracesong/productivitytracker/ProductivityTracker/ProductivityTrackerApp.swift
+/Users/gracesong/productivitytracker/ProductivityTracker/Models/CalendarCategory.swift
+/Users/gracesong/productivitytracker/ProductivityTracker/Models/TimedEvent.swift
+/Users/gracesong/productivitytracker/ProductivityTracker/Models/PeriodTotals.swift
+/Users/gracesong/productivitytracker/ProductivityTracker/Services/CalendarSyncService.swift
+/Users/gracesong/productivitytracker/ProductivityTracker/Services/TimeAggregator.swift
+/Users/gracesong/productivitytracker/ProductivityTracker/Views/TrackerViewModel.swift
+/Users/gracesong/productivitytracker/ProductivityTracker/Views/ContentView.swift
+/Users/gracesong/productivitytracker/ProductivityTracker/Views/PeriodPickerView.swift
+/Users/gracesong/productivitytracker/ProductivityTracker/Views/CategoryTotalsView.swift
+/Users/gracesong/productivitytracker/ProductivityTracker/Views/CategoryBarChart.swift
+/Users/gracesong/productivitytracker/ProductivityTracker/Views/CalendarFilterView.swift
+/Users/gracesong/productivitytracker/DerivedData/Build/Intermediates.noindex/ProductivityTracker.build/Debug/ProductivityTracker.build/DerivedSources/GeneratedAssetSymbols.swift

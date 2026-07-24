@@ -1,0 +1,312 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A10000000000000000000001 /* ProductivityTrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000001 /* ProductivityTrackerApp.swift */; };
+		A10000000000000000000002 /* CalendarCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000002 /* CalendarCategory.swift */; };
+		A10000000000000000000003 /* TimedEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000003 /* TimedEvent.swift */; };
+		A10000000000000000000004 /* PeriodTotals.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000004 /* PeriodTotals.swift */; };
+		A10000000000000000000005 /* CalendarSyncService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000005 /* CalendarSyncService.swift */; };
+		A10000000000000000000006 /* TimeAggregator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000006 /* TimeAggregator.swift */; };
+		A10000000000000000000007 /* TrackerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000007 /* TrackerViewModel.swift */; };
+		A10000000000000000000008 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000008 /* ContentView.swift */; };
+		A10000000000000000000009 /* PeriodPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000009 /* PeriodPickerView.swift */; };
+		A1000000000000000000000A /* CategoryTotalsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000000000000000000000A /* CategoryTotalsView.swift */; };
+		A1000000000000000000000B /* CategoryBarChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000000000000000000000B /* CategoryBarChart.swift */; };
+		A1000000000000000000000C /* CalendarFilterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000000000000000000000C /* CalendarFilterView.swift */; };
+		A1000000000000000000000D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2000000000000000000000D /* Assets.xcassets */; };
+		A1000000000000000000000E /* AppTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000010 /* AppTheme.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A20000000000000000000001 /* ProductivityTrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductivityTrackerApp.swift; sourceTree = "<group>"; };
+		A20000000000000000000002 /* CalendarCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarCategory.swift; sourceTree = "<group>"; };
+		A20000000000000000000003 /* TimedEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimedEvent.swift; sourceTree = "<group>"; };
+		A20000000000000000000004 /* PeriodTotals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeriodTotals.swift; sourceTree = "<group>"; };
+		A20000000000000000000005 /* CalendarSyncService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarSyncService.swift; sourceTree = "<group>"; };
+		A20000000000000000000006 /* TimeAggregator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeAggregator.swift; sourceTree = "<group>"; };
+		A20000000000000000000007 /* TrackerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackerViewModel.swift; sourceTree = "<group>"; };
+		A20000000000000000000008 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A20000000000000000000009 /* PeriodPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeriodPickerView.swift; sourceTree = "<group>"; };
+		A2000000000000000000000A /* CategoryTotalsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryTotalsView.swift; sourceTree = "<group>"; };
+		A2000000000000000000000B /* CategoryBarChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryBarChart.swift; sourceTree = "<group>"; };
+		A2000000000000000000000C /* CalendarFilterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarFilterView.swift; sourceTree = "<group>"; };
+		A20000000000000000000010 /* AppTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTheme.swift; sourceTree = "<group>"; };
+		A2000000000000000000000D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A2000000000000000000000E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2000000000000000000000F /* ProductivityTracker.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ProductivityTracker.entitlements; sourceTree = "<group>"; };
+		A30000000000000000000001 /* ProductivityTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProductivityTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A40000000000000000000001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A50000000000000000000001 = {
+			isa = PBXGroup;
+			children = (
+				A50000000000000000000002 /* ProductivityTracker */,
+				A50000000000000000000006 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A50000000000000000000002 /* ProductivityTracker */ = {
+			isa = PBXGroup;
+			children = (
+				A20000000000000000000001 /* ProductivityTrackerApp.swift */,
+				A50000000000000000000003 /* Models */,
+				A50000000000000000000004 /* Services */,
+				A50000000000000000000005 /* Views */,
+				A2000000000000000000000D /* Assets.xcassets */,
+				A2000000000000000000000E /* Info.plist */,
+				A2000000000000000000000F /* ProductivityTracker.entitlements */,
+			);
+			path = ProductivityTracker;
+			sourceTree = "<group>";
+		};
+		A50000000000000000000003 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A20000000000000000000002 /* CalendarCategory.swift */,
+				A20000000000000000000003 /* TimedEvent.swift */,
+				A20000000000000000000004 /* PeriodTotals.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A50000000000000000000004 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				A20000000000000000000005 /* CalendarSyncService.swift */,
+				A20000000000000000000006 /* TimeAggregator.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		A50000000000000000000005 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A20000000000000000000010 /* AppTheme.swift */,
+				A20000000000000000000007 /* TrackerViewModel.swift */,
+				A20000000000000000000008 /* ContentView.swift */,
+				A20000000000000000000009 /* PeriodPickerView.swift */,
+				A2000000000000000000000A /* CategoryTotalsView.swift */,
+				A2000000000000000000000B /* CategoryBarChart.swift */,
+				A2000000000000000000000C /* CalendarFilterView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A50000000000000000000006 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A30000000000000000000001 /* ProductivityTracker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A60000000000000000000001 /* ProductivityTracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A80000000000000000000003 /* Build configuration list for PBXNativeTarget "ProductivityTracker" */;
+			buildPhases = (
+				A70000000000000000000001 /* Sources */,
+				A40000000000000000000001 /* Frameworks */,
+				A70000000000000000000002 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ProductivityTracker;
+			productName = ProductivityTracker;
+			productReference = A30000000000000000000001 /* ProductivityTracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A90000000000000000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					A60000000000000000000001 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+				};
+			};
+			buildConfigurationList = A80000000000000000000001 /* Build configuration list for PBXProject "ProductivityTracker" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A50000000000000000000001;
+			productRefGroup = A50000000000000000000006 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A60000000000000000000001 /* ProductivityTracker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A70000000000000000000002 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1000000000000000000000D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A70000000000000000000001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10000000000000000000001 /* ProductivityTrackerApp.swift in Sources */,
+				A10000000000000000000002 /* CalendarCategory.swift in Sources */,
+				A10000000000000000000003 /* TimedEvent.swift in Sources */,
+				A10000000000000000000004 /* PeriodTotals.swift in Sources */,
+				A10000000000000000000005 /* CalendarSyncService.swift in Sources */,
+				A10000000000000000000006 /* TimeAggregator.swift in Sources */,
+				A10000000000000000000007 /* TrackerViewModel.swift in Sources */,
+				A10000000000000000000008 /* ContentView.swift in Sources */,
+				A10000000000000000000009 /* PeriodPickerView.swift in Sources */,
+				A1000000000000000000000A /* CategoryTotalsView.swift in Sources */,
+				A1000000000000000000000B /* CategoryBarChart.swift in Sources */,
+				A1000000000000000000000C /* CalendarFilterView.swift in Sources */,
+				A1000000000000000000000E /* AppTheme.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A80000000000000000000004 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A80000000000000000000005 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		A80000000000000000000006 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ProductivityTracker/ProductivityTracker.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = ProductivityTracker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gracesong.ProductivityTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		A80000000000000000000007 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ProductivityTracker/ProductivityTracker.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = ProductivityTracker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gracesong.ProductivityTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A80000000000000000000001 /* Build configuration list for PBXProject "ProductivityTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A80000000000000000000004 /* Debug */,
+				A80000000000000000000005 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A80000000000000000000003 /* Build configuration list for PBXNativeTarget "ProductivityTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A80000000000000000000006 /* Debug */,
+				A80000000000000000000007 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A90000000000000000000001 /* Project object */;
+}

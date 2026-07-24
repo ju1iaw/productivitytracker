@@ -1,0 +1,16 @@
+{
+  "source": "/Users/gracesong/productivitytracker/ProductivityTracker/Views/CategoryTotalsView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "By calendar",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 8
+        }
+      }
+    ]
+  },
+  "version": 1
+}

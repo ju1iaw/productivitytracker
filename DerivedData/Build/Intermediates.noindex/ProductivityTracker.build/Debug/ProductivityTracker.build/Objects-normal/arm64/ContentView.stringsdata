@@ -1,0 +1,56 @@
+{
+  "source": "/Users/gracesong/productivitytracker/ProductivityTracker/Views/ContentView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Total time across selected calendars",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 63
+        }
+      },
+      {
+        "comment": "",
+        "key": "No timed events in this period",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 72
+        }
+      },
+      {
+        "comment": "",
+        "key": "All-day events are excluded from totals. Try another day or enable more calendars.",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 75
+        }
+      },
+      {
+        "comment": "",
+        "key": "Calendar Access Required",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 90
+        }
+      },
+      {
+        "comment": "",
+        "key": "This app reads your Apple Calendar (including iCloud calendars) to total time by calendar.",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 94
+        }
+      },
+      {
+        "comment": "",
+        "key": "Grant Calendar Access",
+        "location": {
+          "startingColumn": 20,
+          "startingLine": 107
+        }
+      }
+    ]
+  },
+  "version": 1
+}

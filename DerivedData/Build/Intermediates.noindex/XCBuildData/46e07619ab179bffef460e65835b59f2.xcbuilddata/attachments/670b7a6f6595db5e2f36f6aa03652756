@@ -1,0 +1,139 @@
+{
+  "" : {
+    "diagnostics" : "/Users/gracesong/productivitytracker/DerivedData/Build/Intermediates.noindex/ProductivityTracker.build/Debug/ProductivityTracker.build/Objects-normal/arm64/ProductivityTracker-primary.dia",
+    "emit-module-dependencies" : "/Users/gracesong/productivitytracker/DerivedData/Build/Intermediates.noindex/ProductivityTracker.build/Debug/ProductivityTracker.build/Objects-normal/arm64/ProductivityTracker-primary-emit-module.d",
+    "emit-module-diagnostics" : "/Users/gracesong/productivitytracker/DerivedData/Build/Intermediates.noindex/ProductivityTracker.build/Debug/ProductivityTracker.build/Objects-normal/arm64/ProductivityTracker-primary-emit-module.dia",
+    "pch" : "/Users/gracesong/productivitytracker/DerivedData/Build/Intermediates.noindex/ProductivityTracker.build/Debug/ProductivityTracker.build/Objects-normal/arm64/ProductivityTracker-primary-Bridging-header.pch",
+    "swift-dependencies" : "/Users/gracesong/productivitytracker/DerivedData/Build/Intermediates.noindex/ProductivityTracker.build/Debug/ProductivityTracker.build/Objects-normal/arm64/ProductivityTracker-primary.swiftdeps"
+  },
+  "/Users/gracesong/productivitytracker/DerivedData/Build/Intermediates.noindex/ProductivityTracker.build/Debug/ProductivityTracker.build/DerivedSources/GeneratedAssetSymbols.swift" : {
+    "const-values" : "/Users/gracesong/productivitytracker/DerivedData/Build/Intermediates.noindex/ProductivityTracker.build/Debug/ProductivityTracker.build/Objects-normal/arm64/GeneratedAssetSymbols.swiftconstvalues",
+    "dependencies" : "/Users/gracesong/productivitytracker/DerivedData/Build/Intermediates.noindex/ProductivityTracker.build/Debug/ProductivityTracker.build/Objects-normal/arm64/GeneratedAssetSymbols.d",
+    "diagnostics" : "/Users/gracesong/productivitytracker/DerivedData/Build/Intermediates.noindex/ProductivityTracker.build/Debug/ProductivityTracker.build/Objects-normal/arm64/GeneratedAssetSymbols.dia",
+    "index-unit-output-path" : "/ProductivityTracker.build/Debug/ProductivityTracker.build/Objects-normal/arm64/GeneratedAssetSymbols.o",
+    "llvm-bc" : "/Users/gracesong/productivitytracker/DerivedData/Build/Intermediates.noindex/ProductivityTracker.build/Debug/ProductivityTracker.build/Objects-normal/arm64/GeneratedAssetSymbols.bc",
+    "object" : "/Users/gracesong/productivitytracker/DerivedData/Build/Intermediates.noindex/ProductivityTracker.build/Debug/ProductivityTracker.build/Objects-normal/arm64/GeneratedAssetSymbols.o",
+    "swift-dependencies" : "/Users/gracesong/productivitytracker/DerivedData/Build/Intermediates.noindex/ProductivityTracker.build/Debug/ProductivityTracker.build/Objects-normal/arm64/GeneratedAssetSymbols.swiftdeps",
+    "swiftmodule" : "/Users/gracesong/productivitytracker/DerivedData/Build/Intermediates.noindex/ProductivityTracker.build/Debug/ProductivityTracker.build/Objects-normal/arm64/GeneratedAssetSymbols~partial.swiftmodule"
+  },
+  "/Users/gracesong/productivitytracker/ProductivityTracker/Models/CalendarCategory.swift" : {
+    "const-values" : "/Users/gracesong/productivitytracker/DerivedData/Build/Intermediates.noindex/ProductivityTracker.build/Debug/ProductivityTracker.build/Objects-normal/arm64/CalendarCategory.swiftconstvalues",
+    "dependencies" : "/Users/gracesong/productivitytracker/DerivedData/Build/Intermediates.noindex/ProductivityTracker.build/Debug/ProductivityTracker.build/Objects-normal/arm64/CalendarCategory.d",
+    "diagnostics" : "/Users/gracesong/productivitytracker/DerivedData/Build/Intermediates.noindex/ProductivityTracker.build/Debug/ProductivityTracker.build/Objects-normal/arm64/CalendarCategory.dia",
+    "index-unit-output-path" : "/ProductivityTracker.build/Debug/ProductivityTracker.build/Objects-normal/arm64/CalendarCategory.o",
+    "llvm-bc" : "/Users/gracesong/productivitytracker/DerivedData/Build/Intermediates.noindex/ProductivityTracker.build/Debug/ProductivityTracker.build/Objects-normal/arm64/CalendarCategory.bc",
+    "object" : "/Users/gracesong/productivitytracker/DerivedData/Build/Intermediates.noindex/ProductivityTracker.build/Debug/ProductivityTracker.build/Objects-normal/arm64/CalendarCategory.o",
+    "swift-dependencies" : "/Users/gracesong/productivitytracker/DerivedData/Build/Intermediates.noindex/ProductivityTracker.build/Debug/ProductivityTracker.build/Objects-normal/arm64/CalendarCategory.swiftdeps",
+    "swiftmodule" : "/Users/gracesong/productivitytracker/DerivedData/Build/Intermediates.noindex/ProductivityTracker.build/Debug/ProductivityTracker.build/Objects-normal/arm64/CalendarCategory~partial.swiftmodule"
+  },
+  "/Users/gracesong/productivitytracker/ProductivityTracker/Models/PeriodTotals.swift" : {
+    "const-values" : "/Users/gracesong/productivitytracker/DerivedData/Build/Intermediates.noindex/ProductivityTracker.build/Debug/ProductivityTracker.build/Objects-normal/arm64/PeriodTotals.swiftconstvalues",
+    "dependencies" : "/Users/gracesong/productivitytracker/DerivedData/Build/Intermediates.noindex/ProductivityTracker.build/Debug/ProductivityTracker.build/Objects-normal/arm64/PeriodTotals.d",
+    "diagnostics" : "/Users/gracesong/productivitytracker/DerivedData/Build/Intermediates.noindex/ProductivityTracker.build/Debug/ProductivityTracker.build/Objects-normal/arm64/PeriodTotals.dia",
+    "index-unit-output-path" : "/ProductivityTracker.build/Debug/ProductivityTracker.build/Objects-normal/arm64/PeriodTotals.o",
+    "llvm-bc" : "/Users/gracesong/productivitytracker/DerivedData/Build/Intermediates.noindex/ProductivityTracker.build/Debug/ProductivityTracker.build/Objects-normal/arm64/PeriodTotals.bc",
+    "object" : "/Users/gracesong/productivitytracker/DerivedData/Build/Intermediates.noindex/ProductivityTracker.build/Debug/ProductivityTracker.build/Objects-normal/arm64/PeriodTotals.o",
+    "swift-dependencies" : "/Users/gracesong/productivitytracker/DerivedData/Build/Intermediates.noindex/ProductivityTracker.build/Debug/ProductivityTracker.build/Objects-normal/arm64/PeriodTotals.swiftdeps",
+    "swiftmodule" : "/Users/gracesong/productivitytracker/DerivedData/Build/Intermediates.noindex/ProductivityTracker.build/Debug/ProductivityTracker.build/Objects-normal/arm64/PeriodTotals~partial.swiftmodule"
+  },
+  "/Users/gracesong/productivitytracker/ProductivityTracker/Models/TimedEvent.swift" : {
+    "const-values" : "/Users/gracesong/productivitytracker/DerivedData/Build/Intermediates.noindex/ProductivityTracker.build/Debug/ProductivityTracker.build/Objects-normal/arm64/TimedEvent.swiftconstvalues",
+    "dependencies" : "/Users/gracesong/productivitytracker/DerivedData/Build/Intermediates.noindex/ProductivityTracker.build/Debug/ProductivityTracker.build/Objects-normal/arm64/TimedEvent.d",
+    "diagnostics" : "/Users/gracesong/productivitytracker/DerivedData/Build/Intermediates.noindex/ProductivityTracker.build/Debug/ProductivityTracker.build/Objects-normal/arm64/TimedEvent.dia",
+    "index-unit-output-path" : "/ProductivityTracker.build/Debug/ProductivityTracker.build/Objects-normal/arm64/TimedEvent.o",
+    "llvm-bc" : "/Users/gracesong/productivitytracker/DerivedData/Build/Intermediates.noindex/ProductivityTracker.build/Debug/ProductivityTracker.build/Objects-normal/arm64/TimedEvent.bc",
+    "object" : "/Users/gracesong/productivitytracker/DerivedData/Build/Intermediates.noindex/ProductivityTracker.build/Debug/ProductivityTracker.build/Objects-normal/arm64/TimedEvent.o",
+    "swift-dependencies" : "/Users/gracesong/productivitytracker/DerivedData/Build/Intermediates.noindex/ProductivityTracker.build/Debug/ProductivityTracker.build/Objects-normal/arm64/TimedEvent.swiftdeps",
+    "swiftmodule" : "/Users/gracesong/productivitytracker/DerivedData/Build/Intermediates.noindex/ProductivityTracker.build/Debug/ProductivityTracker.build/Objects-normal/arm64/TimedEvent~partial.swiftmodule"
+  },
+  "/Users/gracesong/productivitytracker/ProductivityTracker/ProductivityTrackerApp.swift" : {
+    "const-values" : "/Users/gracesong/productivitytracker/DerivedData/Build/Intermediates.noindex/ProductivityTracker.build/Debug/ProductivityTracker.build/Objects-normal/arm64/ProductivityTrackerApp.swiftconstvalues",
+    "dependencies" : "/Users/gracesong/productivitytracker/DerivedData/Build/Intermediates.noindex/ProductivityTracker.build/Debug/ProductivityTracker.build/Objects-normal/arm64/ProductivityTrackerApp.d",
+    "diagnostics" : "/Users/gracesong/productivitytracker/DerivedData/Build/Intermediates.noindex/ProductivityTracker.build/Debug/ProductivityTracker.build/Objects-normal/arm64/ProductivityTrackerApp.dia",
+    "index-unit-output-path" : "/ProductivityTracker.build/Debug/ProductivityTracker.build/Objects-normal/arm64/ProductivityTrackerApp.o",
+    "llvm-bc" : "/Users/gracesong/productivitytracker/DerivedData/Build/Intermediates.noindex/ProductivityTracker.build/Debug/ProductivityTracker.build/Objects-normal/arm64/ProductivityTrackerApp.bc",
+    "object" : "/Users/gracesong/productivitytracker/DerivedData/Build/Intermediates.noindex/ProductivityTracker.build/Debug/ProductivityTracker.build/Objects-normal/arm64/ProductivityTrackerApp.o",
+    "swift-dependencies" : "/Users/gracesong/productivitytracker/DerivedData/Build/Intermediates.noindex/ProductivityTracker.build/Debug/ProductivityTracker.build/Objects-normal/arm64/ProductivityTrackerApp.swiftdeps",
+    "swiftmodule" : "/Users/gracesong/productivitytracker/DerivedData/Build/Intermediates.noindex/ProductivityTracker.build/Debug/ProductivityTracker.build/Objects-normal/arm64/ProductivityTrackerApp~partial.swiftmodule"
+  },
+  "/Users/gracesong/productivitytracker/ProductivityTracker/Services/CalendarSyncService.swift" : {
+    "const-values" : "/Users/gracesong/productivitytracker/DerivedData/Build/Intermediates.noindex/ProductivityTracker.build/Debug/ProductivityTracker.build/Objects-normal/arm64/CalendarSyncService.swiftconstvalues",
+    "dependencies" : "/Users/gracesong/productivitytracker/DerivedData/Build/Intermediates.noindex/ProductivityTracker.build/Debug/ProductivityTracker.build/Objects-normal/arm64/CalendarSyncService.d",
+    "diagnostics" : "/Users/gracesong/productivitytracker/DerivedData/Build/Intermediates.noindex/ProductivityTracker.build/Debug/ProductivityTracker.build/Objects-normal/arm64/CalendarSyncService.dia",
+    "index-unit-output-path" : "/ProductivityTracker.build/Debug/ProductivityTracker.build/Objects-normal/arm64/CalendarSyncService.o",
+    "llvm-bc" : "/Users/gracesong/productivitytracker/DerivedData/Build/Intermediates.noindex/ProductivityTracker.build/Debug/ProductivityTracker.build/Objects-normal/arm64/CalendarSyncService.bc",
+    "object" : "/Users/gracesong/productivitytracker/DerivedData/Build/Intermediates.noindex/ProductivityTracker.build/Debug/ProductivityTracker.build/Objects-normal/arm64/CalendarSyncService.o",
+    "swift-dependencies" : "/Users/gracesong/productivitytracker/DerivedData/Build/Intermediates.noindex/ProductivityTracker.build/Debug/ProductivityTracker.build/Objects-normal/arm64/CalendarSyncService.swiftdeps",
+    "swiftmodule" : "/Users/gracesong/productivitytracker/DerivedData/Build/Intermediates.noindex/ProductivityTracker.build/Debug/ProductivityTracker.build/Objects-normal/arm64/CalendarSyncService~partial.swiftmodule"
+  },
+  "/Users/gracesong/productivitytracker/ProductivityTracker/Services/TimeAggregator.swift" : {
+    "const-values" : "/Users/gracesong/productivitytracker/DerivedData/Build/Intermediates.noindex/ProductivityTracker.build/Debug/ProductivityTracker.build/Objects-normal/arm64/TimeAggregator.swiftconstvalues",
+    "dependencies" : "/Users/gracesong/productivitytracker/DerivedData/Build/Intermediates.noindex/ProductivityTracker.build/Debug/ProductivityTracker.build/Objects-normal/arm64/TimeAggregator.d",
+    "diagnostics" : "/Users/gracesong/productivitytracker/DerivedData/Build/Intermediates.noindex/ProductivityTracker.build/Debug/ProductivityTracker.build/Objects-normal/arm64/TimeAggregator.dia",
+    "index-unit-output-path" : "/ProductivityTracker.build/Debug/ProductivityTracker.build/Objects-normal/arm64/TimeAggregator.o",
+    "llvm-bc" : "/Users/gracesong/productivitytracker/DerivedData/Build/Intermediates.noindex/ProductivityTracker.build/Debug/ProductivityTracker.build/Objects-normal/arm64/TimeAggregator.bc",
+    "object" : "/Users/gracesong/productivitytracker/DerivedData/Build/Intermediates.noindex/ProductivityTracker.build/Debug/ProductivityTracker.build/Objects-normal/arm64/TimeAggregator.o",
+    "swift-dependencies" : "/Users/gracesong/productivitytracker/DerivedData/Build/Intermediates.noindex/ProductivityTracker.build/Debug/ProductivityTracker.build/Objects-normal/arm64/TimeAggregator.swiftdeps",
+    "swiftmodule" : "/Users/gracesong/productivitytracker/DerivedData/Build/Intermediates.noindex/ProductivityTracker.build/Debug/ProductivityTracker.build/Objects-normal/arm64/TimeAggregator~partial.swiftmodule"
+  },
+  "/Users/gracesong/productivitytracker/ProductivityTracker/Views/CalendarFilterView.swift" : {
+    "const-values" : "/Users/gracesong/productivitytracker/DerivedData/Build/Intermediates.noindex/ProductivityTracker.build/Debug/ProductivityTracker.build/Objects-normal/arm64/CalendarFilterView.swiftconstvalues",
+    "dependencies" : "/Users/gracesong/productivitytracker/DerivedData/Build/Intermediates.noindex/ProductivityTracker.build/Debug/ProductivityTracker.build/Objects-normal/arm64/CalendarFilterView.d",
+    "diagnostics" : "/Users/gracesong/productivitytracker/DerivedData/Build/Intermediates.noindex/ProductivityTracker.build/Debug/ProductivityTracker.build/Objects-normal/arm64/CalendarFilterView.dia",
+    "index-unit-output-path" : "/ProductivityTracker.build/Debug/ProductivityTracker.build/Objects-normal/arm64/CalendarFilterView.o",
+    "llvm-bc" : "/Users/gracesong/productivitytracker/DerivedData/Build/Intermediates.noindex/ProductivityTracker.build/Debug/ProductivityTracker.build/Objects-normal/arm64/CalendarFilterView.bc",
+    "object" : "/Users/gracesong/productivitytracker/DerivedData/Build/Intermediates.noindex/ProductivityTracker.build/Debug/ProductivityTracker.build/Objects-normal/arm64/CalendarFilterView.o",
+    "swift-dependencies" : "/Users/gracesong/productivitytracker/DerivedData/Build/Intermediates.noindex/ProductivityTracker.build/Debug/ProductivityTracker.build/Objects-normal/arm64/CalendarFilterView.swiftdeps",
+    "swiftmodule" : "/Users/gracesong/productivitytracker/DerivedData/Build/Intermediates.noindex/ProductivityTracker.build/Debug/ProductivityTracker.build/Objects-normal/arm64/CalendarFilterView~partial.swiftmodule"
+  },
+  "/Users/gracesong/productivitytracker/ProductivityTracker/Views/CategoryBarChart.swift" : {
+    "const-values" : "/Users/gracesong/productivitytracker/DerivedData/Build/Intermediates.noindex/ProductivityTracker.build/Debug/ProductivityTracker.build/Objects-normal/arm64/CategoryBarChart.swiftconstvalues",
+    "dependencies" : "/Users/gracesong/productivitytracker/DerivedData/Build/Intermediates.noindex/ProductivityTracker.build/Debug/ProductivityTracker.build/Objects-normal/arm64/CategoryBarChart.d",
+    "diagnostics" : "/Users/gracesong/productivitytracker/DerivedData/Build/Intermediates.noindex/ProductivityTracker.build/Debug/ProductivityTracker.build/Objects-normal/arm64/CategoryBarChart.dia",
+    "index-unit-output-path" : "/ProductivityTracker.build/Debug/ProductivityTracker.build/Objects-normal/arm64/CategoryBarChart.o",
+    "llvm-bc" : "/Users/gracesong/productivitytracker/DerivedData/Build/Intermediates.noindex/ProductivityTracker.build/Debug/ProductivityTracker.build/Objects-normal/arm64/CategoryBarChart.bc",
+    "object" : "/Users/gracesong/productivitytracker/DerivedData/Build/Intermediates.noindex/ProductivityTracker.build/Debug/ProductivityTracker.build/Objects-normal/arm64/CategoryBarChart.o",
+    "swift-dependencies" : "/Users/gracesong/productivitytracker/DerivedData/Build/Intermediates.noindex/ProductivityTracker.build/Debug/ProductivityTracker.build/Objects-normal/arm64/CategoryBarChart.swiftdeps",
+    "swiftmodule" : "/Users/gracesong/productivitytracker/DerivedData/Build/Intermediates.noindex/ProductivityTracker.build/Debug/ProductivityTracker.build/Objects-normal/arm64/CategoryBarChart~partial.swiftmodule"
+  },
+  "/Users/gracesong/productivitytracker/ProductivityTracker/Views/CategoryTotalsView.swift" : {
+    "const-values" : "/Users/gracesong/productivitytracker/DerivedData/Build/Intermediates.noindex/ProductivityTracker.build/Debug/ProductivityTracker.build/Objects-normal/arm64/CategoryTotalsView.swiftconstvalues",
+    "dependencies" : "/Users/gracesong/productivitytracker/DerivedData/Build/Intermediates.noindex/ProductivityTracker.build/Debug/ProductivityTracker.build/Objects-normal/arm64/CategoryTotalsView.d",
+    "diagnostics" : "/Users/gracesong/productivitytracker/DerivedData/Build/Intermediates.noindex/ProductivityTracker.build/Debug/ProductivityTracker.build/Objects-normal/arm64/CategoryTotalsView.dia",
+    "index-unit-output-path" : "/ProductivityTracker.build/Debug/ProductivityTracker.build/Objects-normal/arm64/CategoryTotalsView.o",
+    "llvm-bc" : "/Users/gracesong/productivitytracker/DerivedData/Build/Intermediates.noindex/ProductivityTracker.build/Debug/ProductivityTracker.build/Objects-normal/arm64/CategoryTotalsView.bc",
+    "object" : "/Users/gracesong/productivitytracker/DerivedData/Build/Intermediates.noindex/ProductivityTracker.build/Debug/ProductivityTracker.build/Objects-normal/arm64/CategoryTotalsView.o",
+    "swift-dependencies" : "/Users/gracesong/productivitytracker/DerivedData/Build/Intermediates.noindex/ProductivityTracker.build/Debug/ProductivityTracker.build/Objects-normal/arm64/CategoryTotalsView.swiftdeps",
+    "swiftmodule" : "/Users/gracesong/productivitytracker/DerivedData/Build/Intermediates.noindex/ProductivityTracker.build/Debug/ProductivityTracker.build/Objects-normal/arm64/CategoryTotalsView~partial.swiftmodule"
+  },
+  "/Users/gracesong/productivitytracker/ProductivityTracker/Views/ContentView.swift" : {
+    "const-values" : "/Users/gracesong/productivitytracker/DerivedData/Build/Intermediates.noindex/ProductivityTracker.build/Debug/ProductivityTracker.build/Objects-normal/arm64/ContentView.swiftconstvalues",
+    "dependencies" : "/Users/gracesong/productivitytracker/DerivedData/Build/Intermediates.noindex/ProductivityTracker.build/Debug/ProductivityTracker.build/Objects-normal/arm64/ContentView.d",
+    "diagnostics" : "/Users/gracesong/productivitytracker/DerivedData/Build/Intermediates.noindex/ProductivityTracker.build/Debug/ProductivityTracker.build/Objects-normal/arm64/ContentView.dia",
+    "index-unit-output-path" : "/ProductivityTracker.build/Debug/ProductivityTracker.build/Objects-normal/arm64/ContentView.o",
+    "llvm-bc" : "/Users/gracesong/productivitytracker/DerivedData/Build/Intermediates.noindex/ProductivityTracker.build/Debug/ProductivityTracker.build/Objects-normal/arm64/ContentView.bc",
+    "object" : "/Users/gracesong/productivitytracker/DerivedData/Build/Intermediates.noindex/ProductivityTracker.build/Debug/ProductivityTracker.build/Objects-normal/arm64/ContentView.o",
+    "swift-dependencies" : "/Users/gracesong/productivitytracker/DerivedData/Build/Intermediates.noindex/ProductivityTracker.build/Debug/ProductivityTracker.build/Objects-normal/arm64/ContentView.swiftdeps",
+    "swiftmodule" : "/Users/gracesong/productivitytracker/DerivedData/Build/Intermediates.noindex/ProductivityTracker.build/Debug/ProductivityTracker.build/Objects-normal/arm64/ContentView~partial.swiftmodule"
+  },
+  "/Users/gracesong/productivitytracker/ProductivityTracker/Views/PeriodPickerView.swift" : {
+    "const-values" : "/Users/gracesong/productivitytracker/DerivedData/Build/Intermediates.noindex/ProductivityTracker.build/Debug/ProductivityTracker.build/Objects-normal/arm64/PeriodPickerView.swiftconstvalues",
+    "dependencies" : "/Users/gracesong/productivitytracker/DerivedData/Build/Intermediates.noindex/ProductivityTracker.build/Debug/ProductivityTracker.build/Objects-normal/arm64/PeriodPickerView.d",
+    "diagnostics" : "/Users/gracesong/productivitytracker/DerivedData/Build/Intermediates.noindex/ProductivityTracker.build/Debug/ProductivityTracker.build/Objects-normal/arm64/PeriodPickerView.dia",
+    "index-unit-output-path" : "/ProductivityTracker.build/Debug/ProductivityTracker.build/Objects-normal/arm64/PeriodPickerView.o",
+    "llvm-bc" : "/Users/gracesong/productivitytracker/DerivedData/Build/Intermediates.noindex/ProductivityTracker.build/Debug/ProductivityTracker.build/Objects-normal/arm64/PeriodPickerView.bc",
+    "object" : "/Users/gracesong/productivitytracker/DerivedData/Build/Intermediates.noindex/ProductivityTracker.build/Debug/ProductivityTracker.build/Objects-normal/arm64/PeriodPickerView.o",
+    "swift-dependencies" : "/Users/gracesong/productivitytracker/DerivedData/Build/Intermediates.noindex/ProductivityTracker.build/Debug/ProductivityTracker.build/Objects-normal/arm64/PeriodPickerView.swiftdeps",
+    "swiftmodule" : "/Users/gracesong/productivitytracker/DerivedData/Build/Intermediates.noindex/ProductivityTracker.build/Debug/ProductivityTracker.build/Objects-normal/arm64/PeriodPickerView~partial.swiftmodule"
+  },
+  "/Users/gracesong/productivitytracker/ProductivityTracker/Views/TrackerViewModel.swift" : {
+    "const-values" : "/Users/gracesong/productivitytracker/DerivedData/Build/Intermediates.noindex/ProductivityTracker.build/Debug/ProductivityTracker.build/Objects-normal/arm64/TrackerViewModel.swiftconstvalues",
+    "dependencies" : "/Users/gracesong/productivitytracker/DerivedData/Build/Intermediates.noindex/ProductivityTracker.build/Debug/ProductivityTracker.build/Objects-normal/arm64/TrackerViewModel.d",
+    "diagnostics" : "/Users/gracesong/productivitytracker/DerivedData/Build/Intermediates.noindex/ProductivityTracker.build/Debug/ProductivityTracker.build/Objects-normal/arm64/TrackerViewModel.dia",
+    "index-unit-output-path" : "/ProductivityTracker.build/Debug/ProductivityTracker.build/Objects-normal/arm64/TrackerViewModel.o",
+    "llvm-bc" : "/Users/gracesong/productivitytracker/DerivedData/Build/Intermediates.noindex/ProductivityTracker.build/Debug/ProductivityTracker.build/Objects-normal/arm64/TrackerViewModel.bc",
+    "object" : "/Users/gracesong/productivitytracker/DerivedData/Build/Intermediates.noindex/ProductivityTracker.build/Debug/ProductivityTracker.build/Objects-normal/arm64/TrackerViewModel.o",
+    "swift-dependencies" : "/Users/gracesong/productivitytracker/DerivedData/Build/Intermediates.noindex/ProductivityTracker.build/Debug/ProductivityTracker.build/Objects-normal/arm64/TrackerViewModel.swiftdeps",
+    "swiftmodule" : "/Users/gracesong/productivitytracker/DerivedData/Build/Intermediates.noindex/ProductivityTracker.build/Debug/ProductivityTracker.build/Objects-normal/arm64/TrackerViewModel~partial.swiftmodule"
+  }
+}

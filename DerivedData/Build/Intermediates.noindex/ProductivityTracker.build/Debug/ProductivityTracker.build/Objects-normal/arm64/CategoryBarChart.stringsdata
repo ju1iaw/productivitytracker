@@ -1,0 +1,32 @@
+{
+  "source": "/Users/gracesong/productivitytracker/ProductivityTracker/Views/CategoryBarChart.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Time distribution",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 9
+        }
+      },
+      {
+        "comment": "",
+        "key": "Hours",
+        "location": {
+          "startingColumn": 31,
+          "startingLine": 15
+        }
+      },
+      {
+        "comment": "",
+        "key": "Calendar",
+        "location": {
+          "startingColumn": 31,
+          "startingLine": 16
+        }
+      }
+    ]
+  },
+  "version": 1
+}
