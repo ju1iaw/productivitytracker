@@ -30,20 +30,24 @@ struct ContentView: View {
             VStack(alignment: .leading, spacing: 20) {
                 PeriodPickerView(viewModel: viewModel)
 
-                summaryHeader
+                ScrollView {
+                    VStack(alignment: .leading, spacing: 20) {
+                        summaryHeader
 
-                if let totals = viewModel.totals, !totals.categories.isEmpty {
-                    CategoryBarChart(totals: totals.categories)
-                        .frame(minHeight: 180)
+                        if let totals = viewModel.totals, !totals.categories.isEmpty {
+                            CategoryBarChart(totals: totals.categories)
+                                .frame(minHeight: 180)
 
-                    CategoryTotalsView(totals: totals.categories)
-                } else {
-                    emptyState
+                            CategoryTotalsView(totals: totals.categories)
+                        } else {
+                            emptyState
+                        }
+                    }
+                    .frame(maxWidth: .infinity, alignment: .leading)
                 }
-
-                Spacer(minLength: 0)
+                .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .top)
             }
-            .frame(maxWidth: .infinity, alignment: .leading)
+            .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .topLeading)
 
             CalendarFilterView(viewModel: viewModel)
                 .frame(width: 260)

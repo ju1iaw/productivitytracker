@@ -42,8 +42,7 @@ struct CalendarFilterView: View {
                     }
                 }
             }
-
-            Spacer(minLength: 0)
+            .frame(maxHeight: .infinity)
         }
         .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .top)
         .cardStyle()
